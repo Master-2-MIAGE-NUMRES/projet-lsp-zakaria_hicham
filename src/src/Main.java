@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 
-        BankAccount newAccount = new BankAccount();
         CurrentAccount currentAccount = new CurrentAccount();
         currentAccount.deposit(1000);
         currentAccount.withdraw(500);
